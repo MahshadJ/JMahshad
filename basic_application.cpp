@@ -35,12 +35,14 @@ void act_on_key_press(ezgl::application *application, GdkEventKey *event, char *
 void initial_setup(ezgl::application *application, bool new_window);
 void test_button(GtkWidget *widget, ezgl::application *application);
 void animate_button(GtkWidget *widget, ezgl::application *application);
+
 /**
  * Draw to the main canvas using the provided graphics object.
  *
  * The graphics object expects that x and y values will be in the main canvas' world coordinate system.
  */
 void draw_main_canvas(ezgl::renderer *g);
+
 /**
  * draw_main_canvas helper functions
  */
